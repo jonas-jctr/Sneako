@@ -11,7 +11,7 @@ pages = {
         st.Page("my_listing.py", title="My Listings"),
     ],
     st.Page("browse.py", title="Browse"):
-    st.Page("discounts.py", title="{}sale.format(type_of_sale)"):
+    st.Page("discounts.py", title="{}sale.format(type_of_sale)")
 }
 pg = st.navigation(pages)
 pg.run()
