@@ -6,9 +6,9 @@ st.write(
 )
 
 pages = {
-    "Your Account":[
-        st.Page("my_profile.py", title="My Profile")
-        st.Page("my_listing.py", title="My Listings")
+    "Your Account": [
+        st.Page("my_profile.py", title="My Profile"),
+        st.Page("my_listing.py", title="My Listings"),
     ],
     st.Page("browse.py", title="Browse")
     st.Page("discounts.py", title="{}sale.format(type_of_sale)")
