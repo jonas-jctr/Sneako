@@ -12,3 +12,6 @@ pages = {
     ],
     st.Page("browse.py", title="Browse"
     st.Page("discounts.py", title="{}sale.format(type_of_sale)"
+            }
+pg = st.navigation(pages)
+pg.run()
